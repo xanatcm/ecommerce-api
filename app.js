@@ -26,7 +26,7 @@ app.use(
 //Security headers
 app.use(helmet());
 //Response api
-app.use(compression);
+app.use(compression());
 //Log request
 app.use(morgan('dev'));
 
